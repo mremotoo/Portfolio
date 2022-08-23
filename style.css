@@ -49,3 +49,32 @@ table {
 
 /* Code below */
 
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    width: 1200px;
+    background-color:red;
+}
+
+.article {
+    width: 1200px;
+    background-color:
+    blue;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    padding: 5rem 3rem 5rem 3rem;
+}
+
+.article card {
+    background-color: pink;
+}
+
+.article card h1 {
+    margin: 2rem;
+}
