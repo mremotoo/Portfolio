@@ -62,8 +62,7 @@ body {
 
 .article {
     width: 1200px;
-    background-color:
-    blue;
+    background-color: whitesmoke;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -72,7 +71,8 @@ body {
 }
 
 .article card {
-    background-color: pink;
+    background-color: indianred;
+    box-shadow: 14px 14px 7px -15px;
 }
 
 .card-top {
@@ -85,4 +85,5 @@ body {
 
 .article card h1 {
     margin: 2rem;
+    color: white;
 }
