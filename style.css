@@ -67,12 +67,20 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 3rem;
+    gap: 2rem;
     padding: 5rem 3rem 5rem 3rem;
 }
 
 .article card {
     background-color: pink;
+}
+
+.card-top {
+    
+}
+
+.card-bottom {
+    background-color: white;
 }
 
 .article card h1 {
