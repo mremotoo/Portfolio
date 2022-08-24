@@ -49,6 +49,10 @@ table {
 
 /* Code below */
 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     display: flex;
     flex-wrap: wrap;
@@ -71,11 +75,11 @@ body {
 }
 
 .article card {
-    background-color: indianred;
+    /* background-color: indianred; */
     box-shadow: 14px 14px 7px -15px;
 }
 
-.card-top {padding: 50px 0 50px 0;}
+.card-top {background-color: darkred;padding: 50px 0 50px 0;}
 
 .card-bottom {
     background-color: white;
@@ -85,7 +89,14 @@ body {
     padding: 10px 15px 60px 15px;
 }
 
+.card-bottom h2, p {
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
 .article card h1 {
     /* margin: 0rem; */
     color: white;
+    font-size: 25px;
 }
