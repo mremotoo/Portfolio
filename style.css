@@ -64,10 +64,28 @@ body {
 
 .header {
     /* max-width: 1200px; */
-    height: 100px;
+    /* height: 100px; */
     background-color:
     red;
     grid-column: 1 / -1;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 35px 50px 35px 50px;
+    /* place-items: center; */
+}
+
+.header img {
+    width: 400px;
+    /* height: 400px; */
+    object-fit: cover;
+    /* margin: 50px; */
+}
+
+.header > div > div {
+    background-color: white;
 }
 
 .article {
