@@ -72,20 +72,34 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 2fr;
     margin: 35px 50px 35px 50px;
     /* place-items: center; */
 }
 
-.header img {
-    width: 400px;
-    /* height: 400px; */
-    object-fit: cover;
-    /* margin: 50px; */
+.header > div > div:nth-child(2) {
+    background-color: white;
+    padding: 40px 30px 30px 20px;
+    text-align: left;
+    margin: 45px 0 45px 0px;
 }
 
-.header > div > div {
-    background-color: white;
+.header > div > div > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header > div > div > p {
+    height: 10px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.header img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    /* margin: 50px; */
 }
 
 .article {
