@@ -93,8 +93,9 @@ body {
 
 .header > div > div > p {
     /* height: 10px; */
-    /* margin-top: 20px; */
-    line-height: 25px;
+    font-size: x-large;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
 .header > div > div:nth-child(1) > img{
@@ -159,4 +160,8 @@ body {
 .card-bottom i {
     font-size: 21px;
     margin-right: 10px;
+}
+
+.footer {
+    background-color: #93c5fd;
 }
