@@ -83,6 +83,7 @@ body {
     margin: 45px 0 45px 0px;
     display: grid;
     grid-template-columns: 1fr;
+    box-shadow: 14px 14px 7px -15px;
 }
 
 .header > div > div > h2 {
@@ -101,6 +102,7 @@ body {
     height: 500px;
     object-fit: cover;
     /* margin: 50px; */
+    box-shadow: 14px 14px 7px -15px;
 }
 
 .header > div > div:nth-child(2) > div {align-self: center;justify-self: right;}
