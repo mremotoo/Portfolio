@@ -65,8 +65,7 @@ body {
 .header {
     /* max-width: 1200px; */
     /* height: 100px; */
-    background-color:
-    #60a5fa;
+    background-color:#93c5fd;
     grid-column: 1 / -1;
 }
 
@@ -82,6 +81,8 @@ body {
     padding: 40px 30px 30px 20px;
     text-align: left;
     margin: 45px 0 45px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .header > div > div > h2 {
@@ -90,17 +91,19 @@ body {
 }
 
 .header > div > div > p {
-    height: 10px;
-    margin-top: 20px;
+    /* height: 10px; */
+    /* margin-top: 20px; */
     line-height: 25px;
 }
 
-.header img {
+.header > div > div:nth-child(1) > img{
     width: 400px;
     height: 500px;
     object-fit: cover;
     /* margin: 50px; */
 }
+
+.header > div > div:nth-child(2) > div {align-self: center;justify-self: right;}
 
 .article {
     /* max-width: 1200px; */
